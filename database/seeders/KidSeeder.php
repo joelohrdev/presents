@@ -10,19 +10,19 @@ class KidSeeder extends Seeder
     public function run(): void
     {
         Kid::create([
-            'name' => 'Kailee'
+            'name' => 'Kailee',
         ]);
 
         Kid::create([
-            'name' => 'Becca'
+            'name' => 'Becca',
         ]);
 
         Kid::create([
-            'name' => 'Alissa'
+            'name' => 'Alissa',
         ]);
 
         Kid::create([
-            'name' => 'Jacob'
+            'name' => 'Jacob',
         ]);
     }
 }

@@ -16,18 +16,18 @@ class Present extends Model
         'price',
         'purchased',
         'image',
-        'parent'
+        'parent',
     ];
 
     protected $casts = [
-      'name' => 'string',
-      'store' => 'string',
-      'size' => 'string',
-      'color' => 'string',
-      'link' => 'string',
-      'purchased' => 'boolean',
-      'image' => 'string',
-      'parent' => 'boolean',
+        'name' => 'string',
+        'store' => 'string',
+        'size' => 'string',
+        'color' => 'string',
+        'link' => 'string',
+        'purchased' => 'boolean',
+        'image' => 'string',
+        'parent' => 'boolean',
     ];
 
     public function kid(): BelongsTo

@@ -7,7 +7,7 @@
     </flux:columns>
 
     <flux:rows>
-        @foreach($this->kids as $kid)
+        @foreach ($this->kids as $kid)
             <flux:row>
                 <flux:cell>{{ $kid->name }}</flux:cell>
                 <flux:cell>Jul 29, 10:45 AM</flux:cell>
