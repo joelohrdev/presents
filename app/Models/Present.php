@@ -15,6 +15,7 @@ class Present extends Model
         'link',
         'price',
         'purchased',
+        'image',
         'parent'
     ];
 
@@ -25,6 +26,7 @@ class Present extends Model
       'color' => 'string',
       'link' => 'string',
       'purchased' => 'boolean',
+      'image' => 'string',
       'parent' => 'boolean',
     ];
 

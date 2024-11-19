@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('link')->nullable();
             $table->integer('price')->nullable();
             $table->boolean('purchased')->default(false);
+            $table->string('image')->nullable();
             $table->boolean('parent')->default(false)->nullable();
             $table->timestamps();
         });
